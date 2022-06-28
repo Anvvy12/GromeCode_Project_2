@@ -20,9 +20,9 @@ ul {
   align-items: center;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100%;
+.body {
+  min-width: 100vw;
+  min-height: 100vh;
   background-color: #141b1c;
   display: flex;
   justify-content: center;
