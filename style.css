@@ -6,7 +6,6 @@
   width: 380px;
   background-color: #334247;
   overflow: hidden;
-  margin-right: 18px;
 }
 .price-card__name {
   padding-top: 33px;
@@ -83,6 +82,10 @@
 
 .second-card {
   position: relative;
+}
+
+.price-card + .price-card {
+  margin-left: 18px;
 }
 
 html {
