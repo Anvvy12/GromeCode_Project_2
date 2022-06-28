@@ -27,31 +27,6 @@ ul {
   align-items: center;
 }
 
-.services-list {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  &__item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    color: #ffffff;
-  }
-  &__icon {
-    margin: 18px 22px 19px 22px;
-    width: 15px;
-    height: 13px;
-  }
-}
-
-.dark {
-  background-color: #2a3438;
-}
 .bye-button {
   margin-top: 39px;
   width: 154px;
@@ -75,7 +50,6 @@ ul {
   height: 15px;
   width: 147px;
   background-color: #dc3f45;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
