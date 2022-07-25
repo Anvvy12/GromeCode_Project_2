@@ -29,7 +29,7 @@ ul {
   align-items: center;
 }
 
-.bye-button {
+.order-button {
   margin-top: 39px;
   width: 154px;
   height: 40px;
@@ -38,21 +38,21 @@ ul {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  color: #ffffff;
   border-radius: 20px;
+  color: #ffffff;
 }
 
 .rectangle {
   transform: rotate(45deg);
-  color: #ffffff;
   text-align: center;
   position: absolute;
   top: 25px;
   right: -35px;
   height: 15px;
   width: 147px;
-  background-color: #dc3f45;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  color: #ffffff;
+  background-color: #dc3f45;
 }

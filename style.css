@@ -4,8 +4,8 @@
   flex-direction: column;
   height: 770px;
   width: 380px;
-  background-color: #334247;
   overflow: hidden;
+  background-color: #334247;
 }
 .price-card__name {
   padding-top: 33px;
@@ -18,15 +18,15 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #fff;
   text-align: center;
+  color: #fff;
 }
 .price-card__price-money {
-  color: #ffffff;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
   padding: 19px 110px;
+  color: #ffffff;
 }
 .price-card__price {
   margin-top: 33px;
@@ -68,19 +68,19 @@
   background-color: #2a3438;
 }
 
-.first-color {
+.green-color {
   background-color: #5bb189;
 }
 
-.second-color {
+.blue-color {
   background-color: #3a6ba5;
 }
 
-.third-color {
+.orange-color {
   background-color: #ec632a;
 }
 
-.second-card {
+.popular-card {
   position: relative;
 }
 
@@ -117,7 +117,7 @@ ul {
   align-items: center;
 }
 
-.bye-button {
+.order-button {
   margin-top: 39px;
   width: 154px;
   height: 40px;
@@ -126,23 +126,23 @@ ul {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  color: #ffffff;
   border-radius: 20px;
+  color: #ffffff;
 }
 
 .rectangle {
   transform: rotate(45deg);
-  color: #ffffff;
   text-align: center;
   position: absolute;
   top: 25px;
   right: -35px;
   height: 15px;
   width: 147px;
-  background-color: #dc3f45;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  color: #ffffff;
+  background-color: #dc3f45;
 }
 
 /*# sourceMappingURL=style.css.map */

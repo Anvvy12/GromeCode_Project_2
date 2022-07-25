@@ -4,8 +4,8 @@
   flex-direction: column;
   height: 770px;
   width: 380px;
-  background-color: #334247;
   overflow: hidden;
+  background-color: #334247;
 
   &__name {
     padding-top: 33px;
@@ -19,15 +19,15 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #fff;
     text-align: center;
+    color: #fff;
   }
   &__price-money {
-    color: #ffffff;
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
     padding: 19px 110px;
+    color: #ffffff;
   }
   &__price {
     margin-top: 33px;
@@ -73,19 +73,19 @@
   background-color: #2a3438;
 }
 
-.first-color {
+.green-color {
   background-color: #5bb189;
 }
 
-.second-color {
+.blue-color {
   background-color: #3a6ba5;
 }
 
-.third-color {
+.orange-color {
   background-color: #ec632a;
 }
 
-.second-card {
+.popular-card {
   position: relative;
 }
 
