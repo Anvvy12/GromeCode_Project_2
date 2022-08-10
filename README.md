@@ -1,6 +1,6 @@
 # Price card
 
-## GromCode Project 1
+## GromCode Project 2
 
 - HTML5
 - CSS3
