@@ -10,8 +10,12 @@
 
 ## Author
 
-- Bogadan Roman
+- Bogdan Roman
 
 ### Email
 
 - youbody7@gmail.com
+
+### Web page
+
+-https://anvvy12.github.io/Price-Cards/
