@@ -1,6 +1,6 @@
 # Price card
 
-## GromCode Project 2
+## Tech stack
 
 - HTML5
 - CSS3
