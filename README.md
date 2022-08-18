@@ -1,5 +1,7 @@
 # Price card
 
+This layout only supports 1440px width
+
 ## Tech stack
 
 - HTML5
