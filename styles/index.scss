@@ -40,15 +40,24 @@ ul {
   text-align: center;
   border-radius: 20px;
   color: #ffffff;
-  &__green {
-    background-color: #5bb189;
-  }
-  &__orange {
-    background-color: #ec632a;
-  }
-  &__blue {
-    background-color: #3a6ba5;
-  }
+}
+
+.order-button_green {
+  background-color: #5bb189;
+}
+.order-button_blue {
+  background-color: #3a6ba5;
+}
+.order-button_orange {
+  background-color: #ec632a;
+}
+
+.popular-card {
+  position: relative;
+}
+
+.price-card + .price-card {
+  margin-left: 18px;
 }
 
 .rectangle {
