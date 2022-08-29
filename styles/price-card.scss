@@ -1,3 +1,9 @@
+:root {
+  --green: #5bb189;
+  --blue: #3a6ba5;
+  --orange: #ec632a;
+}
+
 .price-card {
   display: flex;
   align-items: center;
@@ -42,18 +48,17 @@
     line-height: 67px;
     padding: 19px 110px;
     color: #ffffff;
-  }
+    &_orange {
+      background-color: var(--orange);
+    }
 
-  &__price-orange {
-    background-color: #ec632a;
-  }
+    &_blue {
+      background-color: var(--blue);
+    }
 
-  &__price-blue {
-    background-color: #3a6ba5;
-  }
-
-  &__price-green {
-    background-color: #5bb189;
+    &_green {
+      background-color: var(--green);
+    }
   }
 
   &__options-list-item {
@@ -75,24 +80,23 @@
     margin: 18px 22px 19px 22px;
     width: 15px;
     height: 13px;
+    &_green {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
+
+    &_blue {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+    }
+
+    &_orange {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+    }
   }
 
   &__options-list {
     width: 100%;
     display: flex;
     flex-direction: column;
-  }
-
-  &__options-list-item_green-icon {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-  }
-
-  &__options-list-item_blue-icon {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-  }
-
-  &__options-list-item_orange-icon {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
   }
 
   &__button {
@@ -109,14 +113,14 @@
   }
 
   &__button_green {
-    background-color: #5bb189;
+    background-color: var(--green);
   }
 
   &__button_blue {
-    background-color: #3a6ba5;
+    background-color: var(--blue);
   }
 
   &__button_orange {
-    background-color: #ec632a;
+    background-color: var(--orange);
   }
 }
